@@ -9,6 +9,20 @@
             margin-left: auto;
             margin-right: auto;
         }
+        .map-responsive{
+            margin-top: 10px;
+            overflow:hidden;
+            padding-bottom:56.25%;
+            position:relative;
+            height:0;
+        }
+        .map-responsive iframe{
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+        }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
@@ -21,11 +35,24 @@
     </div>
     <hr />
     <div class="container has-text-centered">
-        <h1 class="title">Next</h1>
+        <p class="title is-size-4">Next Game</p>
         <ul>
             <li><strong>Aug 18 / 10AM</strong></li>
             <li>@ AV Dynamite</li>
-            <li>Ackersons</li>
+            <li><strong>Snack: </strong>Gladden</li>
+        </ul>
+    </div>
+    <hr />
+    <div class="container has-text-centered">
+        <p class="title is-size-4">Next Practice</p>
+        <ul>
+            <li><strong>Monday, 8/13 / 5 - 6:15</strong></li>
+            <li>JD Morgan Park</li>
+            <li>
+                <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.4478787376743!2d-121.96117618469638!3d37.2845176798517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e3522da2ee8b3%3A0x183cf66803ad1c0b!2sJohn+D.+Morgan+Park!5e0!3m2!1sen!2sus!4v1533919896128" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </li>
         </ul>
     </div>
     <hr />
