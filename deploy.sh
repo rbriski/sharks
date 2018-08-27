@@ -1,1 +1,1 @@
-scp index.html rbriski@206.189.161.166:/srv/www/sharkssbys.com/
+scp index.html rbriski@142.93.30.19:/var/www/sharkssbys.com/html/
